@@ -1,0 +1,191 @@
+@media (max-width: 999px) {
+  .navbar {
+    .top-nav,  .center-nav .form-contain, .mobile-none {
+      display: none !important;
+    }
+
+    .center-nav .list-data li {
+      padding-inline-end: 5px !important;
+
+      &.search {
+        display: block !important;
+      }
+
+      a {
+        width: fit-content !important;
+        height: fit-content !important;
+        background-color: transparent !important;
+
+        img {
+          width: 15px;
+          height: 15px;
+          filter: invert(35%) sepia(67%) saturate(3192%) hue-rotate(178deg) brightness(96%) contrast(103%) !important;
+        }
+
+        span {
+          top: -15px !important;
+          right: -10px !important;
+          z-index: 999 !important;
+        }
+      }
+    }
+
+    .hamburger {
+      display: block !important;
+    }
+
+    &.scrolled .navbar-nav {
+      display: block;
+      top: 70px;
+    }
+
+    .brand-name img{
+      width: 120px !important;
+    }
+
+    .navbar-nav {
+      display: none !important;
+    }
+  }
+
+  .bottom-nav {
+    display: flex !important;
+  }
+
+  footer {
+    padding-bottom: 60px;
+  }
+
+  .banners-shape .image-content img.img-contain {
+    height: 150px !important;
+  }
+
+  .offers .image-content.large-img,
+  .offers .image-content.small-img{
+    height: 200px !important;
+  }
+
+  .heading {
+    margin-bottom: 30px !important;
+
+    h1 {
+      font-size: 17px !important;
+    }
+  }
+
+  .products.best-saller.general-section::after {
+    display: none !important;
+  }
+
+  .best-product .best-box {
+    height: 135px;
+  }
+
+  header {
+    padding-top: 100px;
+
+    .swiper-slide a {
+      height: 200px !important;
+    }
+  }
+
+  .sub-header {
+    padding: 100px 0px 40px 0px !important;
+    background-image: none !important;
+  }
+
+  .product-details .prodcutDetailsSwiper .swiper-slide {
+    height: 200px !important;
+  }
+
+  .login {
+    padding: 125px 0px 40px 0px;
+
+    .login .login-contain .data {
+      padding: 20px 10px !important;
+    }
+  }
+
+  .table-resposive  {
+    width: 100%;
+    overflow-x: scroll;
+
+    th, td {
+      min-width: 140px !important;
+    }
+  }
+
+  .cart {
+
+    .button-contain a {
+      font-size: 13px !important;
+      padding: 20px 10px !important;
+      min-width: 140px;
+      margin: 0px !important;
+    }
+  }
+
+  .checkout.E-payement .checkout-content .button-contain a {
+    font-size: 11px !important;
+  }
+
+  .form-contain .radio-lable label {
+    font-size: 10px !important;
+  }
+
+  .checkout .checkout-content .heading h1 {
+    margin: auto !important;
+  }
+
+  .navbar .center-nav .content .list-data li.dropdown  .dropdown-toggle {
+    padding: 0px !important;
+    
+    span {
+      display: none;
+    }
+
+    img {
+      margin: 0px !important;
+      
+    }
+
+    &::after {
+      display: none !important;
+    }
+  }
+
+  .dropdown-menu {
+    transform: translateX(-136px) !important;
+
+    .dropdown-item {
+      padding: 5px 10px !important;
+      height: fit-content !important;
+    }
+  }
+
+  .sub-header .content .sub-header-list li {
+    a {
+      font-size: 12px;
+    }
+
+    span {
+      font-size: 13px !important;
+    }
+  }
+
+  .modal-footer {
+    justify-content: space-between;
+    .custom-btn {
+      width: 47% !important;
+      margin: 0px !important;
+    }
+  }
+
+  .careers .box .flex-data {
+    flex-direction: column;
+
+    a {
+      margin: 10px 0px 0px !important;
+    }
+  }
+}
